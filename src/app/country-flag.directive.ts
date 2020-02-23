@@ -23,6 +23,7 @@ export class CountryFlagDirective implements AfterViewInit {
     const base = 127462 - 65;
     const cc = code.toUpperCase();
     const res = String.fromCodePoint(...cc.split('').map(c => base + c.charCodeAt(0)));
+    // console.log('===flag==>',res);
     return res;
   }
 }
