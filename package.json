@@ -1,5 +1,6 @@
 {
-  "name": "angular",
+  "name": "countries-dropdown-with-flag-02",
+  "author": "Ugrasenan",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
